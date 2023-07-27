@@ -1,257 +1,41 @@
 ---
-title: "Blog Post 2"
-date: 2021-12-18T11:10:36+08:00
+title: "What is Robotic Process Automation?"
+date: 2023-07-27T13:49:36+08:00
 draft: false
 language: en
 featured_image: ../assets/images/featured/featured-img-placeholder.png
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero. Vestibulum vel convallis felis. Ut finibus lorem vestibulum lobortis rhoncus.
-author: TailBliss
+summary: Explore the evolution of Robotic Process Automation (RPA) bots from "Generation 1" to the cutting-edge next-generation. Discover how traditional RPA bots work, their use cases, and the challenges they face, including error handling and scalability. Learn about the promise of advanced RPA technology and how it can revolutionize automation, efficiency, and productivity in various industries.
+description: In this insightful blog, we delve into the world of Robotic Process Automation (RPA) bots, from the early "Generation 1" implementations to the much-anticipated next-generation advancements. RPA bots have shown remarkable capabilities in automating repetitive tasks, saving time, and reducing human errors. However, traditional RPA bots have their limitations, pasrticularly in handling exceptions and scaling effectively.
+author: OpenAdapt
 authorimage: ../assets/images/global/author.webp
-categories: blog
-tags: blog
+categories: Blog
+tags: Blog
 ---
-__Advertisement :smile:__
-
-- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
-  resize in browser.
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
-  i18n with plurals support and easy syntax.
-
-You will like those projects!
-
----
-
-# h1 Heading :blush:
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
-
-
-## Horizontal Rules
-
-***
-
----
-
-___
-
-
-## Typographic replacements
-
-Enable typographer option to see result.
-
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-
-test.. test... test..... test?..... test!....
-
-!!!!!! ???? ,,  -- ---
-
-"Smartypants, double quotes" and 'single quotes'
-
-
-## Emphasis
-
-**This is bold text**
-
-__This is bold text__
-
-*This is italic text*
-
-_This is italic text_
-
-~~Strikethrough~~
-
-
-## Blockquotes
-
-
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
-
-
-## Lists
-
-Unordered
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-Right aligned columns
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
-
-## Plugins
-
-The killer feature of `markdown-it` is very effective support of
-[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-- 19^th^
-- H~2~O
-
-
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-==Marked text==
-
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  ~ Definition 2a
-  ~ Definition 2b
-
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-*[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-*here be dragons*
-:::
+Robotic Process Automation (RPA) is software that mimics human interactions with digital interfaces and applications. Specific instances of RPA can be thought of as individual “bots” that can interact with a computer in a manner similar to a human being: they can view and interpret on-screen interfaces presented in text or GUI-form, they can navigate these interfaces with keyboard and/or mouse input, and they can perform a broad array of tasks within a predetermined workflow.
+
+In practice, RPA bots are deployed to automate routine, repetitive tasks within the context of a repetitive workflow. This constitutes anything that a knowledge worker might do through a computer interface which is laborious, time-consuming, and dull. Thus, Robotic Process Automation (RPA) bots operate by automating routine tasks typically performed by human workers. These tasks can range from simple data entry or retrieval tasks to more complex procedures like transaction processing or responding to emails.
+
+## **How do traditional RPA bots typically work?**
+Traditional RPA bots—let’s call them “Generation 1” RPA bots—use relatively simple implementations of rule-based programming:
+1. **Task Mapping** : Initially, the processes to be automated are defined and mapped out in detail. This involves specifying what actions the bot needs to perform, what data it needs to handle, and what conditions it needs to consider.
+2. **Development**: Once the processes are mapped, the RPA bots are configured or programmed to perform the tasks. This often involves using a specialized RPA tool or platform, where tasks can be defined visually using a drag-and-drop interface, or by scripting in a specific programming language.
+3. **Integration and Interaction**: RPA bots are designed to interact with various systems just like a human worker would. They can log into applications, enter data into fields, download and upload files, copy and paste data, and even make decisions based on predefined rules. They can interact with numerous software applications and systems, including enterprise resource planning systems, customer relationship management software, document management systems, and more.
+4. **Execution and Monitoring**: Once set up, the RPA bots can operate around the clock, performing tasks much faster and more accurately than a human worker. They can be monitored and managed through a central console, and their performance can be analyzed and optimized over time.
+5. **Error Handling and Exception Management**: RPA bots are also capable of handling errors and exceptions. If they encounter a situation that they can't handle or that wasn't anticipated in the process mapping, they can be programmed to alert a human worker to intervene. With “Generation 1” RPA bots, this is typically where costs and problems add up—the bots themselves are typically brittle and stupid, which translates to frequent errors and exceptions. 
+
+This means that, in spite of the efficiency gain from automating repetitive human workflows, there can be considerable costs around deploying systematic error handling requiring human intervention, often at scale. In practice, this often translates into cost-intensive support systems that require a massive mechanical turk (a group of standby, “human correctors”) to maintain the overall system’s throughput. 
+
+## **What are some use cases for Robotic Process Automation?**
+In spite of its limitations, “Generation 1” Robotic Process Automation (RPA) has a broad range of applications across various industries, largely due to its versatility in automating tasks that are repetitive, rule-based, and involve digital systems. Here are a few examples:
+1. **Finance and Accounting**: RPA can be used for automating tasks such as accounts payable and receivable, reconciling bank statements, processing invoices, and performing financial close and reporting.
+Human Resources: Tasks like payroll processing, employee onboarding and offboarding, updating employee information in HR systems, and benefits administration can be automated using RPA.
+2. **Customer Service**: RPA bots can automate the process of fetching and updating customer information, assisting in resolving customer queries, or forwarding complex issues to human operators.
+3. **Supply Chain Management**: RPA can streamline processes such as procurement, tracking of goods, inventory management, supplier onboarding and management, and invoice processing.
+4. **Healthcare**: RPA can be used for patient scheduling, billing, claims processing, managing patient records, and compliance reporting.
+6. **Information Technology**: RPA can be used for system monitoring, routine maintenance tasks, data migration, and backup management.
+7. **Sales and Marketing**: RPA can automate processes like data entry and consolidation for lead generation, campaign management, and competitive analysis.
+The promise of the technology has always been simple: to automate tasks that are time-consuming, monotonous, and prone to human error. In all of these applications, RPA can reduce costs, increase efficiency, improve accuracy, and free up human workers to focus on more strategic, higher-value tasks.
+
+But where are current generation RPA bots failing? How can they do better?
+
+What does the next generation of RPA bots look like?
