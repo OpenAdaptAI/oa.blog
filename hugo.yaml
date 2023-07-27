@@ -52,6 +52,7 @@ params:
     heading: "From the blog"
     content:
       - text: "Showcasing the power and capabilities of OpenAdapt, the AI-First Process Automation with Transformers."
+    url: "/categories/blog/"
   p5:
     heading: "Stay Up to Date"
     content:
@@ -82,10 +83,14 @@ menu:
       name: About
       url: /about/
       weight: 10
+    - identifier: blog
+      name: Blog
+      url: /categories/blog/
+      weight: 20
     - identifier: contact
       name: Contact
       url: /contact/
-      weight: 20
+      weight: 
   footer:
     - identifier: about
       name: About
