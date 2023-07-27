@@ -18,15 +18,17 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Tags', name: 'tags', widget: 'list', alow_add: true }
       - { label: 'Description', name: 'description', widget: 'string' }
-      - label: "Cover"
-        name: "cover"
-        widget: "object"
-        collapsed: true
-        fields:
-          - {
-              label: "Image",
-              name: "image",
-              default: "../assets/images/featured/featured-img-placeholder.png",
-              widget: "string",
-            }
+      - { label: 'Summary', name: 'summary', widget: 'string' }
+      - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'Author Image', name: 'authorimage', widget: 'image',choose_url: true,
+          required: false,
+          media_library: { config: { multiple: false } }, }
+      - { label: 'Categories', name: 'categories', widget: 'string' }
+      - { label: 'Language', name: 'language', widget: 'string' }
+      - {
+          label: "Featured Image",
+          name: "featured_image",
+          default: "../assets/images/featured/featured-img-placeholder.png",
+          widget: "image",
+        }
       - { label: 'Body', name: 'body', widget: 'markdown' }
