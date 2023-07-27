@@ -1,6 +1,6 @@
 ---
 title: "What is Robotic Process Automation?"
-date: 2022-06-18T11:10:36+08:00
+date: 2023-07-27T13:49:36+08:00
 draft: false
 language: en
 featured_image: ../assets/images/featured/featured-img-placeholder.png
